@@ -1,11 +1,11 @@
 #lang scribble/manual
-@require[@for-label[$$$PKG_NAME$$$
+@require[@for-label[phc-ts
                     racket/base]]
 
-@title{$$$PKG_NAME$$$}
+@title{phc-ts}
 @author[@author+email["Georges Dupéron" "georges.duperon@gmail.com"]]
 
-@defmodule[$$$PKG_NAME$$$]
+@defmodule[phc-ts]
 
 There is no documentation for this package yet.
 
@@ -13,7 +13,7 @@ There is no documentation for this package yet.
    (syntax-case stx ()
      [(_ b)
       (boolean? (syntax-e #'b))
-      (let-values ([(vars stx-vars) (module->exports $$$PKG_NAME$$$)])
+      (let-values ([(vars stx-vars) (module->exports phc-ts)])
         #`(itemlist
            #,(for*/list ([phase+ids (in-list (if (syntax-e #'b) vars stx-vars))]
                          [phase (in-value (car phase+ids))]

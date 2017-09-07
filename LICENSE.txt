@@ -1,4 +1,4 @@
-$$$PKG_NAME$$$
+phc-ts
 Copyright (c) 2016-2017 Georges Dupéron
 
 
