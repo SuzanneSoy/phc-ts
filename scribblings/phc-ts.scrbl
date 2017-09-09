@@ -20,8 +20,8 @@ There is no documentation for this package yet.
                                                   stx-vars))]
                           [phase (in-value (car phase+ids))]
                           [id (in-list (cdr phase+ids))])
-                #`(item (racketid #,id)
-                        "at phase"
+                #`(item (racketid #,(car id))
+                        " at phase"
                         #,(number->string phase)))))]))
 
 The following variables are provided:
