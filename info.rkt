@@ -1,9 +1,15 @@
 #lang info
 (define collection "phc-ts")
 (define deps '("base" ;; ("base" "6.4")
-               "rackunit-lib"))
+               "rackunit-lib"
+               "reprovide-lang"
+               "dotlambda"
+               "hyper-literate"
+               "phc-toolkit"
+               "turnstile"))
 (define build-deps '("scribble-lib"
-                     "racket-doc"))
+                     "racket-doc"
+                     "scribble-enhanced"))
 (define scribblings '(("scribblings/phc-ts.scrbl" ())))
 (define pkg-desc "")
 (define version "0.0")
