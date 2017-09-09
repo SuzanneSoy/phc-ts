@@ -1,6 +1,6 @@
 #lang info
 (define collection "phc-ts")
-(define deps '(("base" "6.8")
+(define deps '(("base" "6.7.0.900")
                "rackunit-lib"
                "reprovide-lang"
                "dotlambda"
