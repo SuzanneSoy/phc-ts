@@ -13,4 +13,4 @@
 (define scribblings '(("scribblings/phc-ts.scrbl" ())))
 (define pkg-desc "")
 (define version "0.0")
-(define pkg-authors '("Georges Dupéron"))
+(define pkg-authors '(|Suzanne Soy|))
