@@ -7,7 +7,7 @@
                      (prefix-in host:
                                 (subtract-in (only-meta-in 1 turnstile/lang)
                                              (only-meta-in 0 turnstile/lang)))
-                     turnstile/examples/mlish))
+                     macrotypes/examples/mlish))
 
 @section{Introduction}
 
@@ -18,9 +18,9 @@ implemented with @turnstile[], and provided as part of @turnstile[]'s suite of
 examples.
 
 @chunk[<*>
-       (extends turnstile/examples/mlish)]
+       (extends macrotypes/examples/mlish)]
 
-Since @racketmodname[turnstile/examples/mlish] provides some identifiers which
+Since @racketmodname[macrotypes/examples/mlish] provides some identifiers which
 conflict with some racket utilities, we import those with a prefix.
 
 @chunk[<*>

@@ -8,8 +8,9 @@ env:
     - PATH="$RACKET_DIR/bin:$PATH"
   matrix:
     # RACKET_VERSION is an argument to install-racket.sh
-    - RACKET_VERSION=6.8     COV=true
-    - RACKET_VERSION=6.9     COV=true
+    #- RACKET_VERSION=6.8     COV=true
+    #- RACKET_VERSION=6.9     COV=true
+    - RACKET_VERSION=7.0     COV=true
     - RACKET_VERSION=RELEASE COV=true
     - RACKET_VERSION=HEAD    COV=true
 
