@@ -6,7 +6,8 @@
                "dotlambda"
                "hyper-literate"
                "phc-toolkit"
-               "turnstile"))
+               "turnstile"
+               "macrotypes-example"))
 (define build-deps '("scribble-lib"
                      "racket-doc"
                      "scribble-enhanced"))
